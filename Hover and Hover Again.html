@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5+CSS3</title>
+    <style>
+        .container{
+             box-shadow: 10px 10px 70px 70px #92fed0 inset;
+             border: 3px solid yellow;
+             border-radius: 20px;
+             margin: 20px auto;
+             transition: all 2s;
+             text-align: center;
+
+             
+        }
+        .paragraphcontainer{
+            column-count: 3;
+            padding: 20px;
+            column-rule: 2px solid red;
+            overflow-x: scroll;
+            width: 20%;
+            height: 500px;
+            box-shadow: 10px 10px 70px 70px #a1ff49 inset;
+            border: 3px solid #010000;
+            border-radius: 20px;
+            margin: 10px;
+            resize: both;
+            display: inline-block;
+        }
+        mark{
+            background-color: red;
+            transition: all 0.3s;
+        }
+        mark:hover{
+             background-image: linear-gradient(to top,red, yellow);
+        }
+        mark:active{
+             background-color: darkcyan;
+        }
+        .photocontainer{
+            overflow-y: scroll;
+            box-shadow: 10px 10px 70px 70px #65ffbb inset;
+            border: 3px solid blue;
+            width: 70%;
+            height: 540px;
+            border-radius: 20px;
+            margin: 10px;
+            resize: both;
+            text-align: center;
+            display: inline-block;
+        }
+        img{
+            width: 100px;
+            margin: 20px;
+            transition: all 0.3s;
+
+        }
+        img:hover{
+            transform: scale(1.2);
+        }
+        img:active{
+            transform: scale(3);
+
+        }
+        .container:hover{
+            transform: skew(5deg);
+            box-shadow: 10px 10px 70px 70px #65ffbb inset,10px 10px 10px blue ;
+        }
+        .container:active{
+            transform: scale(0.8);
+        }
+        .container:active{
+            box-shadow: 10px 10px 70px 70px #65ffbb inset,10px 10px 10px orange ;
+        }
+        @media screen and (max-width:900px) {
+            .photocontainer{
+                width: 50%;
+                height: 540px;
+
+            }
+            .paragraphcontainer{
+                width: 20%;
+                height: 500px;
+
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            mark{
+            background-color: blue;
+
+        }
+        .photocontainer img{
+            transform: rotate(15deg);
+        }
+        img:active{
+            transform: rotate(0);
+            border: 3px dashed blue;
+
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="paragraphcontainer">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt hic officiis non officia esse odio dolorum autem
+                 quis commodi corporis ut aut est, labore rerum nesciunt.Quidem dolor ea beatae.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia voluptatum ipsam,
+                   nobis eligendi <mark>explicabo eveniet, in eius possimus 
+                veniam error corrupti inventore quibusdam? Repellendus illum itaque esse veniam ad.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt hic officiis non officia esse odio dolorum autem
+                quis commodi corporis ut aut est, labore rerum nesciunt.Quidem</mark> dolor ea beatae.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia voluptatum ipsam,
+                  nobis eligendi explicabo eveniet, in eius possimus 
+               veniam errorcorrupti inventore quibusdam? Repellendus illum itaque esse veniam ad.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt hic officiis non officia esse odio dolorum autem
+               quis commodi corporis ut aut est, labore rerum nesciunt.Quidem dolor ea beatae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia voluptatum ipsam,
+                 nobis eligendi explicabo eveniet, in eius possimus 
+              veniam error corrupti inventore quibusdam? Repellendus illum itaque esse veniam ad.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt hic officiis non officia esse odio dolorum autem
+              quis commodi corporis ut aut est, labore rerum nesciunt.Quidem dolor ea beatae.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia voluptatum ipsam,
+                nobis eligendi explicabo eveniet, in eius possimus 
+             veniam error corrupti inventore quibusdam? Repellendus illum itaque esse veniam ad.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt hic officiis non officia esse odio dolorum autem
+             quis commodi corporis ut aut est, labore rerum nesciunt.Quidem dolor ea beatae.
+           entore quibusdam? Repellendus illum itaque esse veniam ad.
+        </div>
+        <div class="photocontainer">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
